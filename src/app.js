@@ -153,20 +153,10 @@ class Main extends React.Component {
           </div>
           <div className="col-md-6">
             <h2 className="generation">
-              {" "}Generations: {this.state.generation}
+              Generations: {this.state.generation}
             </h2>
           </div>
         </div>
-        {/* <Buttons
-          playButton={this.playButton}
-          pauseButton={this.pauseButton}
-          slow={this.slow}
-          fast={this.fast}
-          clear={this.clear}
-          seed={this.seed}
-          gridSize={this.gridSize}
-        />
-        <h2>Generations: {this.state.generation}</h2> */}
       </div>
     );
   }
