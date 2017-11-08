@@ -1,9 +1,12 @@
 body {
-  background-color: green;
+  background-image: url('./background.jpg');
+  background-size: cover;
+  background-color: black;
 }
 
 .jumbotron {
-  background-color: transparent;
+  background-color: rgba(105, 105, 105, 0.8);
+  margin-top: 10px;
   margin-bottom: 5px;
   padding-bottom: 20px;
 }
@@ -51,19 +54,20 @@ body {
   /*width: 250px;*/
   line-height: 0;
   margin: auto;
-  box-shadow: 0px 0px 20px green;
+  box-shadow: 0px 0px 50px blue;
   margin-top: 10px;
 }
 
 h1, h2, h3, h4 {
-  color: white;
+  color: white !important;
   margin: auto;
   text-align: center;
   width: 50%;
   margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
 }
-
-h4 {
-  margin-top: 10px;
-  color: red;
+p {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  /*font-weight: bold;*/
 }
