@@ -1,10 +1,26 @@
 body {
-  background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/squares.png)
+  background-color: green;
+}
+
+.jumbotron {
+  background-color: transparent;
+  margin-bottom: 5px;
+  padding-bottom: 20px;
+}
+
+.main-heading {
+  margin-bottom: 5px;
+}
+
+.generation {
+  padding-top: 10px;
+  margin-right: 15px;
+  text-align: right;
 }
 
 .box {
   display: inline-block;
-  border: 1px solid black;
+  /*border: 1px solid;*/
   width: 15px;
   height: 15px;
   margin-left: -1px;
@@ -12,29 +28,31 @@ body {
 }
 
 .off {
-  background-color: lightgray;
+  background-color: black;
 }
 
 .on {
-  background-color: green;
+  background-color: blue;
 }
 
 .box:hover {
-  background: #00CCFF;
+  background: blue;
 }
 
 .center {
   margin: auto;
+  margin-left: 15px;
   display: table;
   margin-top: 10px;
 }
 
 .grid {
-  width: 150px;
+  /*only needed when grid is not dynamic*/
+  /*width: 250px;*/
   line-height: 0;
   margin: auto;
-  box-shadow: 0px 0px 20px white;
-  margin-top: 20px;
+  box-shadow: 0px 0px 20px green;
+  margin-top: 10px;
 }
 
 h1, h2, h3, h4 {
@@ -46,5 +64,6 @@ h1, h2, h3, h4 {
 }
 
 h4 {
-  margin-top: 0px;
+  margin-top: 10px;
+  color: red;
 }
