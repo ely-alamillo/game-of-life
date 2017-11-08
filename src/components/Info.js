@@ -13,7 +13,7 @@ const Info = () => {
         after that you can press the play button to see the game come to life!
       </p>
     </Jumbotron>
-  )
-}
+  );
+};
 
 export default Info;
